@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "city_id": {
+            "type": "number",
+            "description": "It is primary key and will always increment on every new record entered",
+            "minimum": 0
+    },
+    "city_name": {
+        "type": "string",
+        "description": "Name of city"
+    },
+    "current_conditions":{
+        "type": "string",
+        "description": "It will show current condition"
+    },
+    "icon": {
+        "type": "string",
+        "description": "It will show icon for condition"
+    },
+    "temperature": {
+        "type": "float",
+        "description": "It can be positive and negative with float at type of number",
+        "minimum": 0
+    },
+    "wind_speed": {
+        "type": "float",
+        "description": "It represents speed of wind blowing usually it will show km/miles",
+        "minimum": 0
+    },
+    "wind_direction":{
+        "type": "string",
+        "description": "It will show direction of wind blowing"
+    },
+    "wind_chill_factor": {
+        "type": "float",
+        "description": "It can be positive and negative with float at type of number"
+    }
+}

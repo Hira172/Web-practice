@@ -1,0 +1,42 @@
+[
+    {
+        "city_id": 1,
+        "city_name":"Liverpool",
+        "current_conditions":"Summer",
+        "icon": "./icons/sun.png",
+        "temperature":12,
+        "wind_speed":4,
+        "wind_direction":"Northern",
+        "wind_chill_factor":-2
+    },
+    {
+        "city_id": 2,
+        "city_name":"Brusel",
+        "current_conditions":"Winter",
+        "icon": "./icons/snow.png",
+        "temperature":-2,
+        "wind_speed":10,
+        "wind_direction":"Southern",
+        "wind_chill_factor":0
+    },
+    {
+        "city_id": 3,
+        "city_name":"another city 1",
+        "current_conditions":"Summer",
+        "icon": "./icons/sun.png",
+        "temperature":12,
+        "wind_speed":4,
+        "wind_direction":"Northern",
+        "wind_chill_factor":-2
+    },
+    {
+        "city_id": 4,
+        "city_name":"another city 2",
+        "current_conditions":"Winter",
+        "icon": "./icons/snow.png",
+        "temperature":-2,
+        "wind_speed":10,
+        "wind_direction":"Southern",
+        "wind_chill_factor":0
+    }
+]

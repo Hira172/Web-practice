@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <button onclick="loadEngland()">England</button>
+        <button onclick="loadIreland()">Ireland</button>
+        <button onclick="loadScotland()">Scotland</button>
+        <button onclick="loadWales()">Wales</button>
+    </div>
+   
+    <section>
+		<select id="cities" hidden>
+			
+		</select>
+		<div id="data" hidden></div>
+		<div id="info"></div>
+	</section>
+     <!-- JavaScript -->
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+     <script src="apiweather.js"></script>
+ 
+ 
+</body>
+</html>
